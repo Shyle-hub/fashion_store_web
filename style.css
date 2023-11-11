@@ -1,0 +1,69 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.Primary-navb{
+    background-color: black;
+}
+.nav-link, a {
+    background-color: blackx;
+}
+.nav-link {
+    font-size: 1rem;
+}
+
+.nav-items {
+    margin-right: 4rem;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+.product_style{
+    justify-content: space-between;
+    display: flex;
+}
+.product_style img{
+    height: 26rem;
+}
+
+.bg_dark{
+    display: flex;
+    justify-content: space-between;
+}
+.sec-navb{
+    background-color: white;
+}
+
+@media (min-width: 1400px){
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1375px;
+}}
+
+/*carousel styling*/
+.card-group img{
+    height: 30rem;
+}
+
+.product2_styl img {
+    height: 100%;
+}
+.contact-text {
+    background-color: rgb(240, 240, 240);
+    padding: 2rem;
+}
+.Categories_list {
+    list-style: none;
+   
+}
+.Categories_list,ul{
+    padding-left: 0rem;
+    margin-top: 3rem;
+}
+
+.shop_now {
+    display: flex;
+    justify-content: space-between;
+}
